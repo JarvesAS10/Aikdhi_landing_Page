@@ -1,0 +1,6 @@
+function login() {
+  // Remove the blurred class from all elements
+  document.querySelectorAll('.blurred').forEach(function(element) {
+    element.classList.remove('blurred');
+  });
+}
