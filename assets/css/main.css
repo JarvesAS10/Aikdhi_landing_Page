@@ -1790,6 +1790,7 @@ input, select, textarea {
 
 		.image img {
 			display: block;
+			border-radius: 50%;
 			width: 100%;
 		}
 
