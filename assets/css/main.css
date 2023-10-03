@@ -1790,7 +1790,7 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			border-radius: 50%;
+			
 			width: 100%;
 		}
 
@@ -3180,3 +3180,14 @@ input, select, textarea {
 	
  }
  
+ .feat{
+	border-radius: 50%;
+ }
+ .feat2{
+	display: block;
+	margin: 0 auto;
+	height: 300px;
+	width: 40px;
+	border-radius: 50%;
+	
+ }
