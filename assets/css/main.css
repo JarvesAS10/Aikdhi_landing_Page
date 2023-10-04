@@ -3183,6 +3183,8 @@ input, select, textarea {
  .feat{
 	margin-top: 0%;
 	border-radius: 50%;
+	margin: 0 auto;
+  align-items: stretch;
  }
  .feat2{
 	display: block;
