@@ -3196,3 +3196,11 @@ input, select, textarea {
 	width: 40px;
 	border-radius: 50%;
  }
+.icoon{
+	height: 30px;
+	width: 30px;
+
+}
+.spacing{
+	margin-left: 2rem;
+}
