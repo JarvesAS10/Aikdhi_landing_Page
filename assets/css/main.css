@@ -74,6 +74,8 @@ input, select, textarea {
 }
 
 
+
+
 /* Basic */
 
 	html {
@@ -3155,8 +3157,9 @@ input, select, textarea {
 .career {
 	font-weight: 500;
     color: #ffffff;
-    line-height: 1.0em; 
+    line-height: 1.0rem; 
 	text-align: left;
+	font-size: 2rem;
 	
 
 }
@@ -3179,6 +3182,7 @@ input, select, textarea {
 	font-weight: 300;
     color: #ffffff;
     line-height: 1.65em;
+	margin-right: 20px;
 	
  }
  
@@ -3189,13 +3193,17 @@ input, select, textarea {
   align-items: stretch;
  }
  
- .feat2{
+.feat2{
 	display: block;
 	margin: 0 auto;
-	height: 400px;
-	width: 40px;
+	
 	border-radius: 50%;
- }
+	object-fit: cover;
+	
+
+	
+	
+}
 .icoon{
 	height: 30px;
 	width: 30px;
