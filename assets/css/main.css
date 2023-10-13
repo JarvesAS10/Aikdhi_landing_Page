@@ -3212,3 +3212,21 @@ input, select, textarea {
 .spacing{
 	margin-left: 2rem;
 }
+.contac{
+	font-size: 2.5rem;
+}
+.contacp{
+	line-height: 1.5rem;
+}
+.btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: fit-content;
+}
+.form-group{
+	margin: 1em 0 0em 0;
+}
+.contaclable{
+	margin: 1em 0 0em 0;
+}
