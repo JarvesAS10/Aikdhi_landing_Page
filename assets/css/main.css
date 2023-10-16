@@ -3230,3 +3230,15 @@ input, select, textarea {
 .contaclable{
 	margin: 1em 0 0em 0;
 }
+.abou{
+	margin-top: 0 0 0 0;
+	width: 300px;
+	height: 400px;
+	
+	object-fit: contain;
+}
+.cofoun{
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
+}
