@@ -3194,15 +3194,13 @@ input, select, textarea {
  }
  
 .feat2{
-	display: block;
-	margin: 0 auto;
 	
-	border-radius: 50%;
-	object-fit: cover;
+	width: 200px;
+	height: 300px;
 	
-
-	
-	
+	object-fit: contain;
+	margin-top: 0 0 0 0;
+	padding-inline-start: 0%;
 }
 .icoon{
 	height: 30px;
