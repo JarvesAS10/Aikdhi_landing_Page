@@ -228,20 +228,20 @@
 							</div>
 							  <div class="col-md-6 pt-0">
 								<h1>Fill Up the Form </h1>
-								<form action="/submit" method="post" enctype="multipart/form-data">
+								<form method="post"  autocomplete="off" name="Career-sheet">
 								  <div class="mb-3">
 									<label class="label-text" for="name">Your Name</label>
-									<input type="text" class="form-control" id="name" name="name" required>
+									<input type="text" name="Name" class="form-control"  value="" required=""/>
 								  </div>
 								  <div class="mb-3">
 									<label class="label-text" for="email">Email Address</label>
-									<input type="email" class="form-control" id="email" name="email" required>
+									<input type="text" name="Email" class="form-control"  value="" required=""/>
 								  </div>
 								  <div class="mb-3">
 									<label class="label-text" for="resume">Resume (PDF)</label>
-									<input type="file" class="form-control" id="resume" name="resume" required accept=".pdf">
+									<input type="file" name="Resume" class="form-control"  value="" required accept=".pdf"/>
 								  </div>
-								  <button type="submit" class="btn btn-primary">Submit</button>
+								  <button type="submit" class="btn btn-primary" name="submit">Submit</button>
 								</form>
 							  </div>
 
@@ -291,6 +291,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/career.js"></script>
 			
 			
 	</body>
