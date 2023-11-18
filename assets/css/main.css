@@ -3197,8 +3197,7 @@ input, select, textarea {
 	
 	width: 200px;
 	height: 300px;
-	
-	object-fit: contain;
+	object-fit: cover;
 	margin-top: 0 0 0 0;
 	padding-inline-start: 0%;
 }
